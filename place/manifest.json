@@ -1,0 +1,11 @@
+{
+    "name" : "SweetPlace",
+    "short_name" : "PSP",
+    "theme_color" : "#4bc5da",
+    "background_color" : "#ffb0e9",
+    "display" : "fullscreen",
+    "Scope" : "/",
+    "start_url" : "https://helenaleivas.github.io/sweetPlace/place/index.html",
+    "lang" : "",
+    "orientation" : "undefined"
+}

@@ -85,18 +85,6 @@ function initMap() {
           localStorage.setItem("lugar", JSON.stringify(lugar));
         });
     }
-
-
-
-
-
-
-
-
-
-
-
-
     }, function() {
        handleLocationError(true, infoWindow, map.getCenter());
      });

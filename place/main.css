@@ -46,7 +46,7 @@ label#info{
 .nome{
   margin-top: -20px;
 }
-.checkbox-inline, .email, .submit{
+.email, .password, .submit{
   margin-top: 10px;
 }
 #enviar{

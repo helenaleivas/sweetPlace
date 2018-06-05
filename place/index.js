@@ -35,7 +35,7 @@ function initMap() {
       var service = new google.maps.places.PlacesService(map);
       service.nearbySearch({
         location: voce,
-        radius: 2000,
+        radius: 900,
         types: ['cafe','food','bakery','restaurant']
       }, callback);
       function callback(results, status) {

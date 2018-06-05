@@ -12,7 +12,11 @@ self.addEventListener('install', function (event) {
               '/sweetPlace/place/manifest.json','/sweetPlace/place/already.png',
               '/sweetPlace/place/cotton.png', '/sweetPlace/place/doce.png',
               '/sweetPlace/place/index.js', '/sweetPlace/place/main.html',
-              '/sweetPlace/place/you.png'
+              '/sweetPlace/place/you.png', '/sweetPlace/place/images/icons/icon-72x72.png',
+              '/sweetPlace/place/images/icons/icon-96x96.png','/sweetPlace/place/images/icons/icon-128x128.png',
+              '/sweetPlace/place/images/icons/icon-144x144.png','/sweetPlace/place/images/icons/icon-152x152.png',
+              '/sweetPlace/place/images/icons/icon-192x192.png', '/sweetPlace/place/images/icons/icon-384x384.png',
+              '/sweetPlace/place/images/icons/icon-512x512.png'                    
               ]);
           });
       })

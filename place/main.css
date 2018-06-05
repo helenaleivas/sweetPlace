@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.form-signin {
+  max-width: 420px;
+  padding: 30px 38px 66px;
+  margin: 0 auto;
+  background-color: #eee;
+  border: 3px dotted rgba(255, 0, 122, 0.16);
+ }
+ .form-signin h3#welcome, h4{
+   text-align: center;
+ }
+.form-control {
+  text-align:center;
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+}
+.colorgraph {
+  height: 7px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+label#info{
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nome{
+  margin-top: -20px;
+}
+.checkbox-inline, .email, .submit{
+  margin-top: 10px;
+}
+#enviar{
+  text-decoration: none;
+}
+#map{
+  height: 100%;
+}
+#navbarText{
+   font-size: 17px !important;
+   letter-spacing: 2px;
+   font-weight: 600;
+   text-align: center;
+}
+#icon{
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#name{
+    font-size: 20px !important;
+    color: #f79db3 !important;
+    letter-spacing: 3px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-weight: 900;
+}
+#navbarText ul li a {
+    color: #fff !important;
+}
+#navbarText ul li a:hover, #navbarText li.active a {
+    color: #ffe281 !important;
+    background-color: #fff !important;
+}
+#subtitle{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Dancing Script', cursive;
+  color: #f14e76;
+  letter-spacing: 3px;
+}
+#alert{
+  display: none;
+}

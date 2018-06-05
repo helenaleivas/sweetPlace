@@ -61,7 +61,7 @@ function initMap() {
           };
           service.getDetails(request, function(details, status) {
             console.log(details);
-            var info = 'Nome: '+details.name+'</br>Endereço: '+details.formatted_address+
+            var info = 'Nome: '+details.name+'</br>Endereço: '+details.vicinity+
             '</br>Telefone: '+details.formatted_phone_number+'</br>Nota: '+details.rating+
             '</br>Funcionamento:</br>'+details.opening_hours.weekday_text;
             infoWindow.setContent(info);

@@ -63,7 +63,7 @@ function initMap() {
             console.log(details);
             var info = 'Nome: '+details.name+'</br>Endereço: '+details.vicinity+
             '</br>Telefone: '+details.formatted_phone_number+'</br>Nota: '+details.rating+
-            '</br>Funcionamento:</br>'+details.opening_hours.weekday_text;
+            '</br>Funcionamento:</br>'+details.opening_hours.weekday_text.join('</br>');
             infoWindow.setContent(info);
             infoWindow.open(map, marker);
           });

@@ -85,10 +85,10 @@ label#info{
 #subtitle{
   padding-top: 30px;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
   font-family: 'Dancing Script', cursive;
-  color: #f14e76;
+  color: #55b0f2;
   letter-spacing: 3px;
 }
 #alert{
